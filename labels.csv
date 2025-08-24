@@ -1,0 +1,343 @@
+filename,label
+frame_00000.npy	,other
+frame_00001.npy,other
+frame_00002.npy,other
+frame_00003.npy,other
+frame_00004.npy,nihon
+frame_00005.npy,syuwa
+frame_00006.npy,ichi
+frame_00007.npy,other
+frame_00008.npy,other
+frame_00009.npy,other
+frame_00010.npy,other
+frame_00011.npy,other
+frame_00012.npy,other
+frame_00013.npy,other
+frame_00014.npy,ha!
+frame_00015.npy,ha!
+frame_00016.npy,wakaru
+frame_00017.npy,wakaru
+frame_00018.npy,wakaru
+frame_00019.npy,wakaru
+frame_00020.npy,?
+frame_00021.npy,?
+frame_00022.npy,?
+frame_00023.npy,wakaranai
+frame_00024.npy,wakaranai
+frame_00025.npy,other
+frame_00026.npy,wakaranai
+frame_00027.npy,wakaranai
+frame_00028.npy,other
+frame_00029.npy,other
+frame_00030.npy,waktta
+frame_00031.npy,other
+frame_00032.npy,wakaranai
+frame_00033.npy	,wakaranai
+frame_00034.npy	,other
+frame_00035.npy	,other
+frame_00036.npy	,ok?
+frame_00037.npy	,other
+frame_00038.npy	,other
+frame_00039.npy,hai
+frame_00040.npy,hai
+frame_00041.npy	,other
+frame_00042.npy	,iie
+frame_00043.npy	,other
+frame_00044.npy	,kore
+frame_00045.npy	,wakatta
+frame_00046.npy	,naruhodo
+frame_00047.npy	,naruhodo
+frame_00048.npy	,other
+frame_00049.npy	,kore
+frame_00050.npy	,kore
+frame_00051.npy	,other
+frame_00052.npy	,wakaranai
+frame_00053.npy	,sore
+frame_00054.npy	,sore
+frame_00055.npy	,kore
+frame_00056.npy	,kore
+frame_00057.npy	,kore
+frame_00058.npy	,kore
+frame_00059.npy,wakarimasitaka?
+frame_00060.npy,tugi
+frame_00061.npy	,other
+frame_00062.npy	,other
+frame_00063.npy	,other
+frame_00064.npy	,other
+frame_00065.npy	,kore
+frame_00066.npy	,kore
+frame_00067.npy,watashi
+frame_00068.npy,namae
+frame_00069.npy,namae
+frame_00070.npy,no
+frame_00071.npy,zaki
+frame_00072.npy,other
+frame_00073.npy,other
+frame_00074.npy,other
+frame_00075.npy,zaki
+frame_00076.npy,watashi
+frame_00077.npy,namae
+frame_00078.npy,zaki
+frame_00079.npy,ok?
+frame_00080.npy,other
+frame_00081.npy,other
+frame_00082.npy,other
+frame_00083.npy,other
+frame_00084.npy,other
+frame_00085.npy,other
+frame_00086.npy,namae
+frame_00087.npy	,nani?
+frame_00088.npy	,nani?
+frame_00089.npy	,other
+frame_00090.npy	,namae
+frame_00091.npy	,hoso
+frame_00092.npy	,hoso
+frame_00093.npy	,no
+frame_00094.npy	,kore
+frame_00095.npy	,hoso
+frame_00096.npy	,kore
+frame_00097.npy	,no
+frame_00098.npy	,kore
+frame_00099.npy	,namae
+frame_00100.npy	,hoso
+frame_00101.npy	,ok?
+frame_00102.npy	,tugi
+frame_00103.npy	,dare?
+frame_00104.npy	,other
+frame_00105.npy	,kore
+frame_00106.npy	,kore
+frame_00107.npy	,kore
+frame_00108.npy	,kore
+frame_00109.npy	,namae
+frame_00110.npy	,namae
+frame_00111.npy	,kawa
+frame_00112.npy	,kawa
+frame_00113.npy	,kita
+frame_00114.npy	,gawa
+frame_00115.npy	,ok?
+frame_00116.npy	,kore
+frame_00117.npy	,kita
+frame_00118.npy	,kore
+frame_00119.npy	,ok?
+frame_00120.npy	,other
+frame_00121.npy	,kore
+frame_00122.npy	,mittu
+frame_00123.npy	,namae
+frame_00124.npy	,namae
+frame_00125.npy	,other
+frame_00126.npy	,other
+frame_00127.npy	,other
+frame_00128.npy	,other
+frame_00129.npy	,other
+frame_00130.npy	,tugi
+frame_00131.npy	,other
+frame_00132.npy	,other
+frame_00133.npy	,other
+frame_00134.npy	,other
+frame_00135.npy	,kore
+frame_00136.npy	,otoko
+frame_00137.npy	,otoko
+frame_00138.npy	,kore
+frame_00139.npy	,kore
+frame_00140.npy	,onnna
+frame_00141.npy	,onnna
+frame_00142.npy	,other
+frame_00143.npy	,watashi
+frame_00144.npy	,zaki
+frame_00145.npy	,sennsei
+frame_00146.npy	,watashi
+frame_00147.npy	,otoko
+frame_00148.npy	,dotti?
+frame_00149.npy	,dotti?
+frame_00150.npy	,onnna
+frame_00151.npy	,onnna
+frame_00152.npy	,other
+frame_00153.npy	,hoso
+frame_00154.npy	,sennsei
+frame_00155.npy	,?
+frame_00156.npy	,other
+frame_00157.npy	,onaji
+frame_00158.npy	,onnna
+frame_00159.npy	,onnna
+frame_00160.npy	,onnna
+frame_00161.npy	,kita
+frame_00162.npy	,onaji
+frame_00163.npy	,onnna
+frame_00164.npy	,onnna
+frame_00165.npy	,ok?
+frame_00166.npy	,other
+frame_00167.npy	,other
+frame_00168.npy	,other
+frame_00169.npy	,other
+frame_00170.npy	,other
+frame_00171.npy	,other
+frame_00172.npy	,other
+frame_00173.npy	,other
+frame_00174.npy	,other
+frame_00175.npy	,other
+frame_00176.npy	,other
+frame_00177.npy	,other
+frame_00178.npy	,other
+frame_00179.npy	,other
+frame_00180.npy	,tigau
+frame_00181.npy	,other
+frame_00182.npy	,other
+frame_00183.npy	,tigau
+frame_00184.npy	,tigau
+frame_00185.npy	,ok?
+frame_00186.npy	,other
+frame_00187.npy	,other
+frame_00188.npy	,aratamete
+frame_00189.npy	,other
+frame_00190.npy	,other
+frame_00191.npy	,other
+frame_00192.npy	,zaki
+frame_00193.npy	,yorshiku
+frame_00194.npy	,onegaishimasu
+frame_00195.npy	,other
+frame_00196.npy	,matane
+frame_00197.npy	,matane
+frame_00198.npy	,matane
+frame_00199.npy	,matane
+frame_00200.npy	,matane
+frame_00201.npy	,matane
+frame_00202.npy,ichi
+frame_00204.npy,ichi
+frame_00206.npy,ichi
+frame_00208.npy,ichi
+frame_00210.npy,ichi
+frame_00212.npy,ichi
+frame_00214.npy,ichi
+frame_00216.npy,ichi
+frame_00218.npy,ichi
+frame_00220.npy,ichi
+frame_00222.npy,nihon
+frame_00224.npy,nihon
+frame_00226.npy,nihon
+frame_00228.npy,nihon
+frame_00230.npy,nihon
+frame_00232.npy,nihon
+frame_00234.npy,nihon
+frame_00236.npy,nihon
+frame_00238.npy,nihon
+frame_00240.npy,nihon
+frame_00242.npy,no
+frame_00244.npy,no
+frame_00246.npy,no
+frame_00248.npy,no
+frame_00250.npy,no
+frame_00252.npy,no
+frame_00254.npy,no
+frame_00256.npy,no
+frame_00258.npy,no
+frame_00260.npy,no
+frame_00262.npy,ok?
+frame_00264.npy,ok?
+frame_00266.npy,ok?
+frame_00268.npy,ok?
+frame_00270.npy,ok?
+frame_00272.npy,ok?
+frame_00274.npy,ok?
+frame_00276.npy,ok?
+frame_00278.npy,ok?
+frame_00280.npy,ok?
+frame_00282.npy,syuwa
+frame_00284.npy,syuwa
+frame_00286.npy,syuwa
+frame_00288.npy,syuwa
+frame_00290.npy,syuwa
+frame_00292.npy,syuwa
+frame_00294.npy,syuwa
+frame_00296.npy,syuwa
+frame_00298.npy,syuwa
+frame_00300.npy,syuwa
+frame_00302.npy,waktta
+frame_00304.npy,waktta
+frame_00306.npy,waktta
+frame_00308.npy,waktta
+frame_00310.npy,waktta
+frame_00312.npy,waktta
+frame_00314.npy,waktta
+frame_00316.npy,waktta
+frame_00318.npy,waktta
+frame_00320.npy,waktta
+frame_00322.npy,watashi
+frame_00324.npy,watashi
+frame_00326.npy,watashi
+frame_00328.npy,watashi
+frame_00330.npy,watashi
+frame_00332.npy,watashi
+frame_00334.npy,watashi
+frame_00336.npy,watashi
+frame_00338.npy,watashi
+frame_00340.npy,watashi
+frame_00205.npy,ichi
+frame_00206.npy,ichi
+frame_00207.npy,ichi
+frame_00208.npy,ichi
+frame_00209.npy,ichi
+frame_00210.npy,ichi
+frame_00211.npy,ichi
+frame_00212.npy,ichi
+frame_00213.npy,ichi
+frame_00214.npy,ichi
+frame_00215.npy,nihon
+frame_00216.npy,nihon
+frame_00217.npy,nihon
+frame_00218.npy,nihon
+frame_00219.npy,nihon
+frame_00220.npy,nihon
+frame_00221.npy,nihon
+frame_00222.npy,nihon
+frame_00223.npy,nihon
+frame_00224.npy,nihon
+frame_00225.npy,no
+frame_00226.npy,no
+frame_00227.npy,no
+frame_00228.npy,no
+frame_00229.npy,no
+frame_00230.npy,no
+frame_00231.npy,no
+frame_00232.npy,no
+frame_00233.npy,no
+frame_00234.npy,no
+frame_00235.npy,ok?
+frame_00236.npy,ok?
+frame_00237.npy,ok?
+frame_00238.npy,ok?
+frame_00239.npy,ok?
+frame_00240.npy,ok?
+frame_00241.npy,ok?
+frame_00242.npy,ok?
+frame_00243.npy,ok?
+frame_00244.npy,ok?
+frame_00245.npy,syuwa
+frame_00246.npy,syuwa
+frame_00247.npy,syuwa
+frame_00248.npy,syuwa
+frame_00249.npy,syuwa
+frame_00250.npy,syuwa
+frame_00251.npy,syuwa
+frame_00252.npy,syuwa
+frame_00253.npy,syuwa
+frame_00254.npy,syuwa
+frame_00255.npy,waktta
+frame_00256.npy,waktta
+frame_00257.npy,waktta
+frame_00258.npy,waktta
+frame_00259.npy,waktta
+frame_00260.npy,waktta
+frame_00261.npy,waktta
+frame_00262.npy,waktta
+frame_00263.npy,waktta
+frame_00264.npy,waktta
+frame_00265.npy,watashi
+frame_00266.npy,watashi
+frame_00267.npy,watashi
+frame_00268.npy,watashi
+frame_00269.npy,watashi
+frame_00270.npy,watashi
+frame_00271.npy,watashi
+frame_00272.npy,watashi
+frame_00273.npy,watashi
+frame_00274.npy,watashi

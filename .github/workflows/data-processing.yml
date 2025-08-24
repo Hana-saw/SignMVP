@@ -1,0 +1,66 @@
+name: Data Processing and Model Training
+
+on:
+  push:
+    paths:
+      - 'web_data/**'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  process-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Process collected data
+      run: |
+        python scripts/process_web_data.py
+        
+    - name: Update dataset
+      run: |
+        python scripts/update_dataset.py
+        
+    - name: Train model
+      run: |
+        python scripts/train_model.py
+        
+    - name: Convert model to TensorFlow.js
+      run: |
+        python scripts/convert_model.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update model with new data"
+        git push
+        
+  deploy-web-app:
+    needs: process-data
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./web_app
+        publish_branch: gh-pages

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手話認識システム - SignMVP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤟 手話認識システム - SignMVP</h1>
+            <p>リアルタイム手話認識とデータ収集</p>
+        </header>
+
+        <nav class="tab-nav">
+            <button class="tab-btn active" onclick="switchTab('recognition')">認識モード</button>
+            <button class="tab-btn" onclick="switchTab('collection')">データ収集</button>
+            <button class="tab-btn" onclick="switchTab('about')">使い方</button>
+        </nav>
+
+        <!-- 認識モード -->
+        <div id="recognition" class="tab-content active">
+            <div class="video-container">
+                <video id="video" autoplay muted></video>
+                <canvas id="canvas" width="640" height="480"></canvas>
+                <div class="overlay">
+                    <div id="prediction" class="prediction-box">
+                        <h3>認識結果</h3>
+                        <p id="prediction-text">手話を表示してください</p>
+                        <p id="confidence">信頼度: --</p>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" onclick="startRecognition()">認識開始</button>
+                <button id="stop-btn" onclick="stopRecognition()" disabled>停止</button>
+            </div>
+        </div>
+
+        <!-- データ収集モード -->
+        <div id="collection" class="tab-content">
+            <div class="collection-form">
+                <h3>新しい手話を登録</h3>
+                <div class="form-group">
+                    <label for="sign-word">手話の単語:</label>
+                    <input type="text" id="sign-word" placeholder="例: こんにちは" required>
+                </div>
+                <div class="form-group">
+                    <label for="sign-description">説明 (任意):</label>
+                    <textarea id="sign-description" placeholder="手話の説明や使い方"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="samples-count">サンプル数:</label>
+                    <input type="number" id="samples-count" value="10" min="1" max="50">
+                </div>
+                <button onclick="startDataCollection()">データ収集開始</button>
+            </div>
+            
+            <div class="video-container">
+                <video id="collection-video" autoplay muted></video>
+                <canvas id="collection-canvas" width="640" height="480"></canvas>
+                <div class="overlay">
+                    <div id="collection-status" class="status-box">
+                        <h3>収集状況</h3>
+                        <p id="collection-text">準備完了</p>
+                        <p id="collection-progress">0 / 0</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="collection-controls">
+                <button id="capture-btn" onclick="captureSample()" disabled>サンプル撮影</button>
+                <button id="save-btn" onclick="saveData()" disabled>データ保存</button>
+            </div>
+        </div>
+
+        <!-- 使い方 -->
+        <div id="about" class="tab-content">
+            <div class="about-content">
+                <h3>使い方</h3>
+                <div class="usage-section">
+                    <h4>🎯 認識モード</h4>
+                    <ol>
+                        <li>「認識開始」ボタンをクリック</li>
+                        <li>カメラの前に手話を表示</li>
+                        <li>リアルタイムで認識結果を確認</li>
+                    </ol>
+                </div>
+                
+                <div class="usage-section">
+                    <h4>📝 データ収集モード</h4>
+                    <ol>
+                        <li>手話の単語と説明を入力</li>
+                        <li>サンプル数を設定</li>
+                        <li>「データ収集開始」をクリック</li>
+                        <li>手話を表示して「サンプル撮影」</li>
+                        <li>「データ保存」でGitHubに送信</li>
+                    </ol>
+                </div>
+                
+                <div class="usage-section">
+                    <h4>💡 コツ</h4>
+                    <ul>
+                        <li>明るい場所で撮影</li>
+                        <li>手がカメラにしっかり映るように</li>
+                        <li>同じ手話でも角度を変えて撮影</li>
+                        <li>顔と手の両方が映るように</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>SignMVP - 手話認識システム | <a href="https://github.com/your-username/SignMVP" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
